@@ -1,3 +1,4 @@
+import { Grid } from '@material-ui/core';
 import React from 'react';
 import './Carousel.css';
 
@@ -5,7 +6,7 @@ function Reviews(){
     return(
         <>
         <h3>Patient's Reviews</h3>
- <div className='Gallery'>
+ <Grid  container className='Gallery'>
 
            <div className='item'>
                <img src='https://images.pexels.com/photos/7579320/pexels-photo-7579320.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' className='gallery1'/>
@@ -42,7 +43,7 @@ function Reviews(){
                </div>
             </div>
 
-</div>
+</Grid>
 </>
     )
 }
