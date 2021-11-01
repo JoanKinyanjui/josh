@@ -11,7 +11,7 @@ function Contactus(){
           <div className='contact'>
 
               <div className='contactus'>
-                  <h5>Gloww Shop Address : 13997-00100</h5>
+                  <h5>Gloww Address : 13997-00100</h5>
               </div>
 
               <div className='contactus'>
@@ -24,15 +24,16 @@ function Contactus(){
 
               <div className='grid-container'>
                   <div className='grid-item'>
-                      <div><a className='col-1'><i className="fab fa-facebook fa-3x "></i></a></div>
-                      <div> <a className='col-1'><i className="fab fa-instagram-square fa-3x "></i></a></div>
+                      <div><a className='col-1' href='https://www.facebook.com/profile.php?id=100074239725721'><i className="fab fa-facebook fa-3x "></i></a></div>
+                      <div> <a className='col-1' href='https://www.instagram.com/glowwkenya/'><i className="fab fa-instagram-square fa-3x "></i></a></div>
                       <div> <a className='col-1'><i className="fab fa-twitter-square fa-3x "></i></a></div>
-                      <div></div><a className='col-1'><i className="fab fa-tiktok  fa-3x"></i></a></div>
+
                   </div>
               </div>
     
             
             <img className='logo' src={logo}/>
+        </div>
         </div>
             </>
     )

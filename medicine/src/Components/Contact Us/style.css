@@ -23,7 +23,7 @@ color: black;
     width: 100% ;
 }
 .grid-item{
-    column-count: 4;
+    column-count: 3;
     padding: 1rem;
     background-color:  rgb(240, 221, 247);
 }
