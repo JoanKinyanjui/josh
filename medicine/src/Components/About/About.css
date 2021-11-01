@@ -73,6 +73,14 @@
     text-align: center;
     flex: 33.33%;
     margin: auto;
-   font-size: 8px;
+   font-size: 9px;
+}
+.about1{
+    font-family: Script MT;
+    font-size: 15px;
+    justify-content:left;
+}
+.col-1{
+    font-size: 15px;
 }
 }

@@ -17,7 +17,7 @@ function Works(){
                 <li className='lists'>Mon - Sat
                 <br />(0800 - 1700hrs)  </li>
                 <li className='lists' ><a  className='a'href='mailto:glowwke@gmail.com'> glowwke@gmail.com </a></li>                
-                <li className='lists' >KTDA PLAZA 5th Flr<br /> Ronald Ngala</li>
+                <li className='lists' >KTDA PLAZA 5th Flr<br /> Ronald Ngala,Nairobi</li>
             
             </ul>
         </div>
