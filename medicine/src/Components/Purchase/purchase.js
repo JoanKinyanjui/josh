@@ -1,6 +1,6 @@
 import React from 'react'
 import './purchase.css';
-import buy03 from '../images/buy02.png';
+import buy03 from '../images/buy2.jpg';
 
 
 function Purchase(){
