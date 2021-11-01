@@ -11,8 +11,8 @@ function  Footer(){
                     <li className='column3'>+254793518270</li>
                     <li className='column3'>glowwke@gmail.com</li>
                     <li className='column3'>13997-00100 NRB</li>
-                    <li className='column3'>Office Hours </li>
-                    <li className='column3'>Mon-Fri 7:00am -8:00pm</li>
+                    <li className='column3'>Pickup Hours </li>
+                    <li className='column3'>Mon-Sat 9:00am -5:00pm</li>
                 </ul>
             </div>
             <div className='column1'>

@@ -52,8 +52,14 @@
     display: flex;
     margin: auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 .lists{
-    margin: auto;
     text-align: center;
+    flex: 33.33%;
+    margin: auto;
+   
 }

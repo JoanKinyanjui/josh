@@ -39,3 +39,14 @@
     
     }
 }
+@media only screen and (max-width:480px){
+    .pills{
+        font-family: System;
+        font-size: 15px;
+        box-shadow: 2px 2px 3px rgb(27, 23, 29);
+        width: 240px;
+        height: max-content;
+        
+    
+    }
+}
