@@ -63,3 +63,16 @@
     margin: auto;
    
 }
+@media only screen and (max-width:480px){
+    .Works{
+        padding:0px;
+        margin-top: 1rem;
+    }
+    
+.lists{
+    text-align: center;
+    flex: 33.33%;
+    margin: auto;
+   font-size: 8px;
+}
+}
