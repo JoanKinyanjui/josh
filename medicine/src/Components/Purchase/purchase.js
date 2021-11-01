@@ -17,7 +17,7 @@ function Purchase(){
 <h4>Ksh 500</h4>
 <div className='text'>
 <a href='https://wa.me/254793518270'><i class="fab fa-whatsapp-square fa-3x"></i></a>
-<a href='tel:+254790236990'><i class="fas fa-phone-square-alt fa-3x"></i> </a>
+<a href='tel:+ 254793518270'><i class="fas fa-phone-square-alt fa-3x"></i> </a>
 </div>
 
 </div>
