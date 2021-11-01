@@ -1,31 +1,41 @@
 .Pills{
     display: flex;
+    font-family: System;
+    font-size: 13px;
 }
 .pills{
     font-family: System;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     text-align: center;
     margin: auto;
-    margin-top: 2rem;
-    box-shadow: 6px 6px 8px rgb(86, 115, 81);
-    width: 640px;
+    box-shadow: 6px 6px 8px rgb(27, 23, 29);
+    width: 560px;
     height: max-content;
     
-    
 
+}
+.gloww{
+    width: 250px;
+    height: 200px;
 }
 .Purchase{
     margin: auto;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
 
 }
-.Cart{
-    margin: auto;
-    padding: 10px;
-    width: 440px;
-    height: max-content;
-    box-shadow: 6px 6px 8px  rgb(86, 115, 81);;
-
+.text a i{
+    margin-right: 2rem;
+}
+@media only screen and (max-width:768px){
+    .pills{
+        font-family: System;
+        font-size: 15px;
+        box-shadow: 3px 3px 4px rgb(27, 23, 29);
+        width: 360px;
+        height: max-content;
+        
+    
     }
+}
