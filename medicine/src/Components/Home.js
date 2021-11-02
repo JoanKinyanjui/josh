@@ -10,13 +10,15 @@ import Popup from './Popup/Popup';
 import Nav from './Navbar/nav';
 
 
-function Home(){
+export default function Home(){
 const [timedPopup,setTimedPopup] =useState(false);
 useEffect( ()=>{
     setTimeout( ()=>{
         setTimedPopup(true);
-    } ,7000 );
+    } ,3000 );
 },[]);
+
+
 
     return(
         
@@ -25,10 +27,11 @@ useEffect( ()=>{
        <Nav />
        <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
       <h5>Subscribe to our Email</h5>
-      <form>
-                
-                <input type='text' className='input' name='email' placeholder='@gmail.com'/>
-                <button className='btn' type='submit'>Submit</button>
+      <form >
+                <input type='text' className='input' name='name' placeholder='username'/> <br/>
+                <br/>
+                <input type='text' className='input' name='email' placeholder='@gmail.com'/><br />
+                <button className='btn' type='submit' onClick={()=>setTimedPopup(false)}>Submit</button>
             </form>
        </Popup>
        <About />
@@ -41,9 +44,6 @@ useEffect( ()=>{
 
        
 </div>
-    
-
-            
+               
     )
 };
-export default Home;
