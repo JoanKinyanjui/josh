@@ -5,6 +5,7 @@ import {Button} from 'react-bootstrap';
 
 function About(){
 return(
+      <Container maxWidth='xl'>
 <div className='row'>
 
       
@@ -24,6 +25,7 @@ return(
      
          </div>
       </div>
+ </Container>
     )
 };
 
