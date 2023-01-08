@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import {Button} from 'react-bootstrap';
-
+import { Container } from '@material-ui/core';
 
 function About(){
 return(
